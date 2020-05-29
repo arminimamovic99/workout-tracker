@@ -1,0 +1,6 @@
+{
+    "mongoURI" : "mongodb+srv://MireDev:17916020@dev-h0ukn.mongodb.net/test?retryWrites=true&w=majority",
+    "jwtSecret" : "mysecrettoken",
+    "githubClientId" : "d38db81018f0514ed5f6",
+    "githubSecret" : "c578491820c37d53e8bd900a4484969aa26fb817"
+}
