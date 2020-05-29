@@ -2,6 +2,7 @@ import React from 'react'
 import axios from 'axios'
 
 export const Landing = (userId) => {
+    // Example of fetching data from an API with React, this code will be removed in future development
     const [ users, setUsers ] = React.useState(null)
     const [ loading, setLoading ] = React.useState(false)
 
