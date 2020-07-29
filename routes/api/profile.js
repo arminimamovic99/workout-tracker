@@ -62,7 +62,7 @@ router.post('/create', [ auth, [
     if(bio) profileFields.bio = bio
     if(status) profileFields.status = status
     if(sports) {
-      profileFields.sports = skills.split(',').map(sport => sport.trim())
+      profileFields.sports = sports.split(',').map(sport => sport.trim())
     }
 
     profileFields.social = {}
